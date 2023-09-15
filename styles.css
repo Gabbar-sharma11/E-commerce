@@ -15,7 +15,7 @@ main{
     margin: 20px;
 }
 .p-grid{
-    margin: 20px;
+    margin: 20px 20%;
     display: grid;
     flex-wrap: wrap;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -26,7 +26,7 @@ main{
     
 }
 .product{
-   width: 250px;
+   width: auto;
    margin: auto;
    border: 1px solid #b9adad;
    background-color: antiquewhite;
